@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAYFURNISH - Premium Carpentry & Joinery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>AKAYFURNISH</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Crafting Excellence in Every Detail</h1>
+            <p class="hero-subtitle fade-in">Premium carpentry and joinery services for discerning homeowners. From custom kitchen cabinets to bespoke furniture, we bring your vision to life with precision and artistry.</p>
+            <div class="hero-buttons fade-in">
+                <a href="services.html" class="btn btn-primary">View Our Services</a>
+                <a href="contact.html" class="btn btn-secondary">Get Quote</a>
+            </div>
+        </div>
+        <div class="hero-image fade-in">
+            <div class="hero-carousel">
+                <div class="carousel-container">
+                    <img src="images/bed.jpg" alt="Premium Kitchen Cabinet" class="carousel-image active">
+                    <img src="images/kitcab.jpg" alt="Custom Wardrobe" class="carousel-image">
+                    <img src="images/walldrobe1.jpg" alt="Handcrafted Bed" class="carousel-image">
+                    <img src="images/tv unit2.jpg" alt="Elegant Bookshelf" class="carousel-image">
+                    <img src="images/tv unit.jpg" alt="Craftsman at Work" class="carousel-image">
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Craftsmanship</h2>
+            <p class="section-subtitle fade-in">Discover our range of premium carpentry and joinery services</p>
+            
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/kitcab.jpg" alt="Kitchen Cabinets">
+                    </div>
+                    <div class="service-content">
+                        <h3>Kitchen Cabinets</h3>
+                        <p>Custom-designed kitchen cabinets that blend functionality with timeless elegance.</p>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/walldrobe1.jpg" alt="Wall Wardrobes">
+                    </div>
+                    <div class="service-content">
+                        <h3>Wall Wardrobes</h3>
+                        <p>Bespoke wardrobes designed to maximize space and complement your interior style.</p>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/bed.jpg" alt="Custom Beds">
+                    </div>
+                    <div class="service-content">
+                        <h3>Custom Beds</h3>
+                        <p>Handcrafted beds that serve as the centerpiece of your bedroom sanctuary.</p>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/Simple-Nice-Design-Cube-Modern-Library-Bookshelf-Wood-Bookshelves-Leg-Bookcase-Free-Standing-Open-Book-Shelves-Oak-Display-Bookcases-for-Bedroom-Living-Room.avif" alt="Bookshelves">
+                    </div>
+                    <div class="service-content">
+                        <h3>Bookshelves</h3>
+                        <p>Elegant storage solutions that showcase your collection while enhancing your space.</p>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/46-Pairs-Shoe-Rack,-14-tier-Freestanding-Tall-Shoe-Shelf.webp" alt="Bookshelves">
+                    </div>
+                    <div class="service-content">
+                        <h3>Shoe Stands</h3>
+                        <p>Elegant storage solutions that showcase your collection while enhancing your space.</p>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/tv unit2.jpg" alt="Bookshelves">
+                    </div>
+                    <div class="service-content">
+                        <h3>TV Stand/Unit</h3>
+                        <p>Elegant storage solutions that showcase your collection while enhancing your space.</p>
+                    </div>
+                </div>
+
+                
+                
+
+            </div>
+
+            <div class="cta-section fade-in">
+                <a href="services.html" class="btn btn-primary">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h2>Craftsmanship That Stands the Test of Time</h2>
+                    <p>With over 15 years of experience in premium carpentry and joinery, we've built our reputation on delivering exceptional quality and unparalleled attention to detail. Every piece we create is a testament to our commitment to excellence.</p>
+                    <p>From concept to completion, we work closely with our clients to ensure their vision becomes reality, creating bespoke furniture and installations that enhance both form and function.</p>
+                    <a href="about.html" class="btn btn-outline">Learn More About Us</a>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="images/tv1.jpg" alt="Craftsman at work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AKAYFURNISH</h3>
+                    <p>Premium carpentry and joinery services for discerning homeowners.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📞 0244288937 or 0532712562</p>
+                   <a href="mailto:deryg421@gmail.com"><p>✉️ deryg421@gmail.com</p></a>
+                    <p>📍 Spintex road opposite Melcom</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 -AKAYFURNISH. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
